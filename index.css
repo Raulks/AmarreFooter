@@ -1,0 +1,81 @@
+body{
+    margin:0;
+}
+#footer{
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: center;
+    background-image: url('./astronomy-1867616.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width:100%;
+    height: 500px;
+    position:absolute;
+    bottom:0;
+
+}
+.icon>img{
+    height: 115px;
+    margin-top: 5vw;
+    margin-bottom: 2vw;
+}
+
+.conditions{
+    margin-top:5vw;
+    text-align: justify;
+    padding: 0 46px;
+}
+.social{
+    margin-top: 10vw;
+    padding-right: 10px;
+    margin-bottom: 11vw;
+}
+.social>.face{
+    background-image: url('./PikPng.com_social-media-logos-png_1006297.png');
+    background-size: 200px;
+    width: 54px;
+    height: 48px;
+    background-position: -647px 0px;
+    display: inline-block;
+}
+.social>.insta{
+    background-image: url('./PikPng.com_social-media-logos-png_1006297.png');
+    background-size: 200px;
+    background-position: -248px -48px;
+    width: 53px;
+    height: 51px;
+    display: inline-block;
+}
+.social>.tweet{
+    background-image: url('./PikPng.com_social-media-logos-png_1006297.png');
+    background-size: 200px;
+    background-position: -399px 0px;
+    width: 48px;
+    height: 47px;
+    display: inline-block;
+}
+
+.social>.whats{
+    background-image: url('./PikPng.com_social-media-logos-png_1006297.png');
+    background-size: 201px;
+    background-position: -301px -1px;
+    width: 49px;
+    height: 46px;
+    display: inline-block;
+}
+h2{
+    color: #f9bd10;
+    margin-top: 0;
+
+
+}
+span>b{
+    color: #f9bd10;
+}
+.rights{
+    color: #f9bd10; 
+    font-size:18px;
+
+}
