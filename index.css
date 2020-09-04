@@ -1,85 +1,80 @@
-body{
-    margin:0;
+body {
+  margin: 0;
 }
-#footer{
-    display: flex;
-    flex-direction: column;
-    justify-content:start;
-    align-items: center;
-    background-image: url('./ramadan-3434919_1280.webp');
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: -68vw;
-    width:100%;
-    height: 150vw;
-    position:absolute;
-    bottom:0;
-
+#footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  background-image: url("./ramadan-3434919_1280.webp");
+  background-size: cover;
+  background-position: -68vw;
+  width: 100%;
+  height: 150vw;
+  position: absolute;
+  bottom: 0;
 }
-.icon>img{
-    height: 115px;
-    margin-top: 5vw;
-    margin-bottom: 2vw;
+.icon > img {
+  height: 115px;
+  margin-top: 5vw;
+  margin-bottom: 2vw;
 }
-
-.conditions{
-    margin-top: 5vw;
-    text-align: center;
-    padding: 0px 10px;
+.conditions {
+  margin-top: 5vw;
+  text-align: center;
+  padding: 0px 10px;
 }
-.social{
-    padding-right: 10px;
-
+.social {
+  padding-right: 10px;
 }
-.social>.face{
-    background-image: url('./Socialgoldmedia.png');
-    background-size: 200px;
-    width: 54px;
-    height: 48px;
-    background-position: -647px 0px;
-    display: inline-block;
+.social > .face {
+  background-image: url("./Socialgoldmedia.png");
+  background-size: 200px;
+  width: 54px;
+  height: 48px;
+  background-position: -647px 0px;
+  display: inline-block;
 }
-.social>.insta{
-    background-image: url('./Socialgoldmedia.png');
-    background-size: 200px;
-    background-position: -248px -48px;
-    width: 53px;
-    height: 51px;
-    display: inline-block;
+.social > .insta {
+  background-image: url("./Socialgoldmedia.png");
+  background-size: 200px;
+  background-position: -248px -48px;
+  width: 53px;
+  height: 51px;
+  display: inline-block;
 }
-.social>.tweet{
-    background-image: url('./Socialgoldmedia.png');
-    background-size: 200px;
-    background-position: -399px 0px;
-    width: 48px;
-    height: 47px;
-    display: inline-block;
+.social > .tweet {
+  background-image: url("./Socialgoldmedia.png");
+  background-size: 200px;
+  background-position: -399px 0px;
+  width: 48px;
+  height: 47px;
+  display: inline-block;
 }
-
-.social>.whats{
-    background-image: url('./Socialgoldmedia.png');
-    background-size: 201px;
-    background-position: -301px -1px;
-    width: 49px;
-    height: 46px;
-    display: inline-block;
+.social > .whats {
+  background-image: url("./Socialgoldmedia.png");
+  background-size: 201px;
+  background-position: -301px -1px;
+  width: 49px;
+  height: 46px;
+  display: inline-block;
 }
-a>h2,a{
-    color: #f9bd10;
-    margin-top: 0;
-    text-decoration: none;
+a > h2,
+a {
+  color: #f9bd10;
+  margin-top: 0;
+  text-decoration: none;
 }
-.conditions>span{
-    color: #f9bd10;
+.conditions > span {
+  color: #f9bd10;
 }
-.rights{
-    color: #f9bd10; 
-    font-size: 18px;
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    bottom: 10vw;
-    right: 0;
-    left: 0;
-
+.rights {
+  color: #f9bd10;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 10vw;
+  right: 0;
+  left: 0;
 }
