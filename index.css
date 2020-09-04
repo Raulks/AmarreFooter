@@ -1,7 +1,7 @@
 body {
   margin: 0;
 }
-#foot {
+.foot {
   display: flex;
   flex-direction: column;
   justify-content: start;
