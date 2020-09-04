@@ -32,7 +32,7 @@ body{
 
 }
 .social>.face{
-    background-image: url('./PikPng.com_social-media-logos-png_1006297.png');
+    background-image: url('./Socialgoldmedia.png');
     background-size: 200px;
     width: 54px;
     height: 48px;
@@ -40,7 +40,7 @@ body{
     display: inline-block;
 }
 .social>.insta{
-    background-image: url('./PikPng.com_social-media-logos-png_1006297.png');
+    background-image: url('./Socialgoldmedia.png');
     background-size: 200px;
     background-position: -248px -48px;
     width: 53px;
@@ -48,7 +48,7 @@ body{
     display: inline-block;
 }
 .social>.tweet{
-    background-image: url('./PikPng.com_social-media-logos-png_1006297.png');
+    background-image: url('./Socialgoldmedia.png');
     background-size: 200px;
     background-position: -399px 0px;
     width: 48px;
@@ -57,7 +57,7 @@ body{
 }
 
 .social>.whats{
-    background-image: url('./PikPng.com_social-media-logos-png_1006297.png');
+    background-image: url('./Socialgoldmedia.png');
     background-size: 201px;
     background-position: -301px -1px;
     width: 49px;
