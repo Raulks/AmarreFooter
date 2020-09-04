@@ -6,7 +6,7 @@ body {
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  background-image: url("./ramadan-3434919_1280.webp");
+  background-image: url("./img/sky.webp");
   background-size: cover;
   background-position: -68vw;
   width: 100%;
@@ -28,7 +28,7 @@ body {
   padding-right: 10px;
 }
 .social > .face {
-  background-image: url("./Socialgoldmedia.png");
+  background-image: url("./img/Socialgoldmedia.png");
   background-size: 200px;
   width: 54px;
   height: 48px;
@@ -36,7 +36,7 @@ body {
   display: inline-block;
 }
 .social > .insta {
-  background-image: url("./Socialgoldmedia.png");
+  background-image: url("./img/Socialgoldmedia.png");
   background-size: 200px;
   background-position: -248px -48px;
   width: 53px;
@@ -44,7 +44,7 @@ body {
   display: inline-block;
 }
 .social > .tweet {
-  background-image: url("./Socialgoldmedia.png");
+  background-image: url("./img/Socialgoldmedia.png");
   background-size: 200px;
   background-position: -399px 0px;
   width: 48px;
@@ -52,7 +52,7 @@ body {
   display: inline-block;
 }
 .social > .whats {
-  background-image: url("./Socialgoldmedia.png");
+  background-image: url("./img/Socialgoldmedia.png");
   background-size: 201px;
   background-position: -301px -1px;
   width: 49px;
