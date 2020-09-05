@@ -1,39 +1,38 @@
 body {
   margin: 0;
 }
-footer{
+footer {
   background-image: url("img/sky-828648_1920.jpg");
   background-size: cover;
   max-height: 64em;
-  height:28em;
+  height: 28em;
   position: absolute;
-  bottom:0;
-  left:0;
-  right:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 .foot {
-  max-width: 1014px;
-  margin:0 auto;
-  width: 100%;
+  max-width: 50em;
+  margin: 0 auto;
 }
-.footbox{
-  display:flex;
+.footbox {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  order:1;
+  order: 1;
 }
-.icon>img {
+.icon > img {
   height: 8em;
   margin-top: 0.6em;
   margin-bottom: 0.2em;
 }
-.icon{
+.icon {
   text-align: center;
 }
-.social{
-  order:2;
-  display:flex;
+.social {
+  order: 2;
+  display: flex;
   flex-direction: row;
   justify-content: center;
 }
@@ -77,20 +76,18 @@ a {
 }
 .conditions {
   margin-top: 1.2em;
-  margin-bottom:2em;
+  margin-bottom: 2em;
   text-align: center;
   width: 19em;
 }
-.contact{
+.contact {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  order:3;
+  order: 3;
 }
-.contact > a{
-  display:flex;
-  flex-direction: column;
+.contact > a {
   background-image: url("./img/mail.png");
   background-size: 4em;
   width: 4em;
@@ -111,16 +108,16 @@ span {
 }
 @media (max-width: 575.98px) {
   .foot {
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
   .foot {
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
@@ -128,90 +125,90 @@ span {
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-  footer{
+  footer {
     background-repeat: round;
   }
-  .foot{
-    background-repeat: round;
-    display:flex;
+  .foot {
+    display: flex;
     align-items: center;
     justify-content: space-around;
     height: 22em;
   }
-  .footbox{
-    order:2;
-    margin-left: 3.5em
+  .footbox {
+    order: 2;
   }
-  .social{
-    order:3;
+  .social {
+    order: 3;
+    margin-top: 6.4em;
   }
-  .contact{
-    order:1;
+  .contact {
+    order: 1;
+    margin-top: 6.4em;
   }
 }
 @media (min-width: 992px) and (max-width: 1199.8px) {
-  footer{
+  footer {
     background-repeat: round;
   }
-  .foot{
-    background-repeat: round;
-    display:flex;
+  .foot {
+    display: flex;
     align-items: center;
     justify-content: space-around;
     height: 22em;
   }
-  .footbox{
-    order:2;
-    margin-left: 3.5em
+  .footbox {
+    order: 2;
   }
-  .social{
-    order:3;
+  .social {
+    order: 3;
+    margin-top: 6.4em;
   }
-  .contact{
-    order:1;
+  .contact {
+    order: 1;
+    margin-top: 6.4em;
   }
 }
 @media (min-width: 1200px) and (max-width: 1491.8px) {
-  footer{
+  footer {
     background-repeat: round;
   }
-  .foot{
-    background-repeat: round;
-    display:flex;
+  .foot {
+    display: flex;
     align-items: center;
     justify-content: space-around;
     height: 22em;
-}
-.footbox{
-  order:2;
-  margin-left: 3.5em
-}
-.social{
-  order:3;
-}
-.contact{
-  order:1;
-}
+  }
+  .footbox {
+    order: 2;
+  }
+  .social {
+    order: 3;
+    margin-top: 6.4em;
+  }
+  .contact {
+    order: 1;
+    margin-top: 6.4em;
+  }
 }
 @media (min-width: 1492px) {
-  footer{
+  footer {
     background-repeat: round;
   }
-  .foot{
-    background-repeat: round;
-    display:flex;
+  .foot {
+    display: flex;
     align-items: center;
     justify-content: space-around;
     height: 22em;
-}
-.footbox{
-  order:2;
-  margin-left: 3.5em
-}
-.social{
-  order:3;
-}
-.contact{
-  order:1;
-}
+  }
+  .footbox {
+    order: 2;
+  }
+  .social {
+    order: 3;
+    margin-top: 6.4em;
+  }
+  .contact {
+    order: 1;
+    margin-top: 6.4em;
+  }
 }
